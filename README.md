@@ -1,6 +1,10 @@
-# taskflow-app
+# taskflow-app [https://taskflow-app-pink.vercel.app/]
 A full-stack task management board  built with React, TypeScript, Node.js, Express, and SQLite. Features drag-and-drop, real database persistence, and filtering.
 A full-stack, lightweight task board  built for small teams. It allows users to create, edit, move, and delete tasks across different columns with data persisting in a real relational database.
+
+Live Demo
+Frontend App: [https://taskflow-app-pink.vercel.app/]
+Backend API: [https://taskflow-app-oqcu.onrender.com/]
 
 
 ## 🛠 Tech Stack
@@ -29,7 +33,7 @@ You need Node.js (v18+) and npm installed on your machine.
    npm install
    npm run dev
    ```
-   *The backend API will start on `https://taskflow-app-oqcu.onrender.com/`. On first run, it will automatically create the SQLite database and seed it with sample data.*
+   *The backend API will start on `http://localhost:4000`. On first run, it will automatically create the SQLite database and seed it with sample data.*
 
 3. **Setup & Start the Frontend:**
    Open a **second terminal**, navigate to the frontend folder, install dependencies, and start the dev server.
@@ -38,7 +42,7 @@ You need Node.js (v18+) and npm installed on your machine.
    npm install
    npm run dev
    ```
-   *Open your browser and go to `https://taskflow-app-pink.vercel.app/` to view the app.*
+   *Open your browser and go to ` http://localhost:5173/` to view the app.*
 
 ---
 
